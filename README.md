@@ -1,6 +1,6 @@
 # Changes-Prototype
 The prototype allows to explore spatio-temporal events at different levels of detail.
-A screenshot about this prototype is given:
+A screenshot of the prototype is given:
 
 ![Alt text](https://github.com/RFASilva/Changes-Prototype/blob/master/screenshot.png "Screenshot Changes Prototype")
 
