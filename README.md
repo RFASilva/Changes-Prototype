@@ -1,8 +1,8 @@
 # Changes-Prototype
-The prototype allows to explore spatio-temporal events at different levels of detail
+The prototype allows to explore spatio-temporal events at different levels of detail.
 A screenshot about this prototype is given:
 
-![Alt text](https://github.com/RFASilva/spatial-core/blob/master/screenshot.png "Screenshot Changes Prototype")
+![Alt text](https://github.com/RFASilva/Changes-Prototype/blob/master/screenshot.png "Screenshot Changes Prototype")
 
 This prototype allows to explore spatio-temporal events at different spatial or temporal levels of detail.
 It contains two main perspectives which are synchronized: (i) spatial perspective; (ii) temporal perspective. 
@@ -17,5 +17,6 @@ The server was implemented in Java (using the REST API RESTeasy JAX-RS) and it i
 retrieving the appropriate results. The browser-based client handles user interaction and data presentation and 
 is written in Javascript, HTML5, WebGL, and it uses Leaflet to support the visualization of data on a map.
 
-It handles with data on the following format (longitude, latitude, a1, ..., an), i.e., spatio-temporal events. 
+It handles with spatio-temporal events. By spatio-temporal events, we mean data with the following structure: (S, T, A1, …, AN) 
+where S describes the location of the event (in two-dimensional space), T specifies the time moment, and  A1, …, AN are attributes detailing what has happened. 
 The prototype was tested with data about accidents in USA and forest fires in Portugal
