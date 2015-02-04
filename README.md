@@ -8,7 +8,7 @@ This prototype allows to explore spatio-temporal events at different spatial or 
 It contains two main perspectives which are synchronized: (i) spatial perspective; (ii) temporal perspective. 
 In both perspectives the user may interact with data, and any interaction in one perspective affects the other one as explained below.
 
-In the spatial perspective, the user can defined a particular area. When this happens, the information in the time-series (in the temporal perspective reflects)
+In the spatial perspective, the user can defined a particular area. When this happens, the information the temporal perspective 
 regards only the events on that area.
 
 In the temporal perspective, the user may select a time-point or an interval of time. When that happens, the map only show the events occurs for the period chosen.
